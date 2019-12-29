@@ -30,6 +30,22 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
     return std::move(contents);
 }
 
+static float FromUserInput(const std::string name) {
+    float value = -1;
+    std::string input;
+    while (value < 0 || value > 100) {
+        std::cout << "Enter " << name << " in range of 0 to 100: ";
+        std::cin >> input;
+        try {
+            value = std::stoi(input);
+        } catch(...) {
+            // ignore bad input, and repeat
+        }
+    }
+    std::cout << name << " is " << value << std::endl;
+    return value;
+}
+
 int main(int argc, const char **argv)
 {    
     std::string osm_data_file = "";
@@ -58,16 +74,22 @@ int main(int argc, const char **argv)
     // TO DO 1: Declare floats `start_x`, `start_y`, `end_x`, and `end_y` and get
     // user input for these values using std::cin. Pass the user input to the
     // RoutePlanner object below in place of 10, 10, 90, 90.
-    float start_x, start_y, end_x, end_y;
-    cout<< "Enter the start x-y and end x-y coordinates"<<endl;
-    cout << "\n start_x: ";
-    cin >> start_x;
-    cout << "\n start_y: ";
-    cin >> start_y;
-    cout << "\n end_x: ";
-    cin >> end_x;
-    cout << "\n end_y: ";
-    cin >> end_y;
+//    float start_x, start_y, end_x, end_y;
+//    cout<< "Enter the start x-y and end x-y coordinates"<<endl;
+//    cout << "\n start_x: ";
+//    cin >> start_x;
+//    cout << "\n start_y: ";
+//    cin >> start_y;
+//    cout << "\n end_x: ";
+//    cin >> end_x;
+//    cout << "\n end_y: ";
+//    cin >> end_y;
+    float start_x = FromUserInput("start x");
+    float start_y = FromUserInput("start y");
+    float end_x = FromUserInput("end x");
+    float end_y = FromUserInput("end y");
+
+
 
     // Build Model.
     RouteModel model{osm_data};

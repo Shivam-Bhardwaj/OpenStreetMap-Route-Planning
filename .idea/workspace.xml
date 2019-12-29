@@ -55,7 +55,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.24826904" />
   </component>
-  <component name="RunManager" selected="CMake Application.OSM_A_star_search">
+  <component name="RunManager" selected="CMake Application.test">
     <configuration name="OSM_A_star_search" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OSM_A_star_search" TARGET_NAME="OSM_A_star_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OSM_A_star_search" RUN_TARGET_NAME="OSM_A_star_search">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -131,7 +131,7 @@
       <workItem from="1577622326848" duration="134000" />
       <workItem from="1577622471479" duration="45000" />
       <workItem from="1577622732390" duration="209000" />
-      <workItem from="1577622951020" duration="1551000" />
+      <workItem from="1577622951020" duration="3822000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577592801013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes in main()">
+      <created>1577624630847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577624630847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,41 +164,43 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="build issue resolved" />
-    <option name="LAST_COMMIT_MESSAGE" value="build issue resolved" />
+    <MESSAGE value="changes in main()" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in main()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577592912181">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
-    <state x="689" y="254" key="CommitChangelistDialog2" timestamp="1577592800909">
-      <screen x="163" y="60" width="3677" height="2100" />
+    <state x="330" y="122" key="CommitChangelistDialog2" timestamp="1577624630767">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
-    <state width="1315" height="179" key="GridCell.Tab.0.bottom" timestamp="1577624410548">
+    <state x="330" y="122" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577624630767" />
+    <state width="1315" height="152" key="GridCell.Tab.0.bottom" timestamp="1577626394972">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="3567" height="564" key="GridCell.Tab.0.bottom/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.bottom/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1315" height="179" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
-    <state width="1315" height="179" key="GridCell.Tab.0.center" timestamp="1577624410548">
+    <state width="1315" height="152" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577626394972" />
+    <state width="1315" height="152" key="GridCell.Tab.0.center" timestamp="1577626394972">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="3567" height="564" key="GridCell.Tab.0.center/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.center/43.16.1237.704@43.16.1237.704" timestamp="1577621685926" />
-    <state width="1315" height="179" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
-    <state width="1315" height="179" key="GridCell.Tab.0.left" timestamp="1577624410547">
+    <state width="1315" height="152" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577626394972" />
+    <state width="1315" height="152" key="GridCell.Tab.0.left" timestamp="1577626394971">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="3567" height="564" key="GridCell.Tab.0.left/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960476" />
     <state width="1191" height="179" key="GridCell.Tab.0.left/43.16.1237.704@43.16.1237.704" timestamp="1577621685925" />
-    <state width="1315" height="179" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410547" />
-    <state width="1315" height="179" key="GridCell.Tab.0.right" timestamp="1577624410548">
+    <state width="1315" height="152" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577626394971" />
+    <state width="1315" height="152" key="GridCell.Tab.0.right" timestamp="1577626394972">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="3567" height="564" key="GridCell.Tab.0.right/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.right/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1315" height="179" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
+    <state width="1315" height="152" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577626394972" />
     <state x="270" y="34" key="SettingsEditor" timestamp="1577623686577">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
