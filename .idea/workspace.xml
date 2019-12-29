@@ -13,14 +13,14 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" BUILD_OPTIONS="-j 12" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OpenStreetMap-Route-Planning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenStreetMap-Route-Planning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route_planner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.24826904" />
   </component>
   <component name="RunManager" selected="CMake Application.OSM_A_star_search">
     <configuration name="OSM_A_star_search" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OSM_A_star_search" TARGET_NAME="OSM_A_star_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OSM_A_star_search" RUN_TARGET_NAME="OSM_A_star_search">
@@ -123,7 +125,13 @@
       <updated>1577590049760</updated>
       <workItem from="1577590051774" duration="254000" />
       <workItem from="1577590323750" duration="703000" />
-      <workItem from="1577592327024" duration="444000" />
+      <workItem from="1577592327024" duration="606000" />
+      <workItem from="1577620879113" duration="807000" />
+      <workItem from="1577621696368" duration="620000" />
+      <workItem from="1577622326848" duration="134000" />
+      <workItem from="1577622471479" duration="45000" />
+      <workItem from="1577622732390" duration="209000" />
+      <workItem from="1577622951020" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -132,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577590394617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="build issue resolved">
+      <created>1577592801013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577592801013</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,20 +156,64 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="build issue resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="build issue resolved" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="689" y="254" key="CommitChangelistDialog2" timestamp="1577590394554">
+    <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577592912181">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
-    <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577590394554" />
-    <state x="1001" y="417" key="Vcs.Push.Dialog.v2" timestamp="1577590405139">
+    <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
+    <state x="689" y="254" key="CommitChangelistDialog2" timestamp="1577592800909">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
-    <state x="1001" y="417" key="Vcs.Push.Dialog.v2/163.60.3677.2100@163.60.3677.2100" timestamp="1577590405139" />
-    <state x="1161" y="693" key="com.intellij.ide.util.TipDialog" timestamp="1577592328742">
+    <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
+    <state width="1315" height="179" key="GridCell.Tab.0.bottom" timestamp="1577624410548">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="3567" height="564" key="GridCell.Tab.0.bottom/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
+    <state width="1191" height="179" key="GridCell.Tab.0.bottom/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
+    <state width="1315" height="179" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
+    <state width="1315" height="179" key="GridCell.Tab.0.center" timestamp="1577624410548">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="3567" height="564" key="GridCell.Tab.0.center/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
+    <state width="1191" height="179" key="GridCell.Tab.0.center/43.16.1237.704@43.16.1237.704" timestamp="1577621685926" />
+    <state width="1315" height="179" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
+    <state width="1315" height="179" key="GridCell.Tab.0.left" timestamp="1577624410547">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="3567" height="564" key="GridCell.Tab.0.left/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960476" />
+    <state width="1191" height="179" key="GridCell.Tab.0.left/43.16.1237.704@43.16.1237.704" timestamp="1577621685925" />
+    <state width="1315" height="179" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410547" />
+    <state width="1315" height="179" key="GridCell.Tab.0.right" timestamp="1577624410548">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="3567" height="564" key="GridCell.Tab.0.right/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
+    <state width="1191" height="179" key="GridCell.Tab.0.right/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
+    <state width="1315" height="179" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577624410548" />
+    <state x="270" y="34" key="SettingsEditor" timestamp="1577623686577">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="748" y="186" key="SettingsEditor/163.60.3677.2100@163.60.3677.2100" timestamp="1577592932112" />
+    <state x="180" y="16" key="SettingsEditor/43.16.1237.704@43.16.1237.704" timestamp="1577623022450" />
+    <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577623686577" />
+    <state x="1001" y="417" key="Vcs.Push.Dialog.v2" timestamp="1577592808672">
       <screen x="163" y="60" width="3677" height="2100" />
+    </state>
+    <state x="1001" y="417" key="Vcs.Push.Dialog.v2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592808672" />
+    <state x="379" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1577622953042">
+      <screen x="43" y="16" width="1237" height="704" />
     </state>
     <state x="1161" y="693" key="com.intellij.ide.util.TipDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592328742" />
+    <state x="379" y="228" key="com.intellij.ide.util.TipDialog/43.16.1237.704@43.16.1237.704" timestamp="1577622953042" />
+    <state x="639" y="144" width="707" height="807" key="find.popup" timestamp="1577623858224">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="639" y="144" width="707" height="807" key="find.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1577623858224" />
+    <state x="429" y="248" width="716" height="290" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577622780732">
+      <screen x="43" y="16" width="1237" height="704" />
+    </state>
+    <state x="429" y="248" width="716" height="290" key="org.intellij.images.editor.actions.BackgroundImageDialog/43.16.1237.704@43.16.1237.704" timestamp="1577622780732" />
   </component>
 </project>
