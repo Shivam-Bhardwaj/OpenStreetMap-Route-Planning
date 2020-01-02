@@ -92,12 +92,12 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.OSM_A_star_search" />
-      <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.pugixml" />
+      <item itemvalue="CMake Application.test" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -136,6 +136,8 @@
       <workItem from="1577957583098" duration="629000" />
       <workItem from="1577960906509" duration="174000" />
       <workItem from="1577961781531" duration="1450000" />
+      <workItem from="1577972269546" duration="14000" />
+      <workItem from="1577972300748" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -194,6 +196,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/thirdparty/googletest" />
+      <path value="$PROJECT_DIR$/thirdparty/pugixml" />
+    </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="build issue resolved" />
     <MESSAGE value="changes in main()" />
@@ -244,23 +250,23 @@
     <state width="3567" height="564" key="GridCell.Tab.0.right/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.right/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
     <state width="1290" height="430" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080327" />
-    <state x="270" y="34" key="SettingsEditor" timestamp="1577971340608">
+    <state x="270" y="34" key="SettingsEditor" timestamp="1577972318991">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="748" y="186" key="SettingsEditor/163.60.3677.2100@163.60.3677.2100" timestamp="1577592932112" />
     <state x="180" y="16" key="SettingsEditor/43.16.1237.704@43.16.1237.704" timestamp="1577623022450" />
-    <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577971340608" />
+    <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577972318991" />
     <state x="488" y="204" key="Vcs.Push.Dialog.v2" timestamp="1577661672442">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1001" y="417" key="Vcs.Push.Dialog.v2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592808672" />
     <state x="488" y="204" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577661672442" />
-    <state x="569" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577661627631">
+    <state x="569" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577972270990">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1161" y="693" key="com.intellij.ide.util.TipDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592328742" />
     <state x="379" y="228" key="com.intellij.ide.util.TipDialog/43.16.1237.704@43.16.1237.704" timestamp="1577622953042" />
-    <state x="569" y="342" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1577661627631" />
+    <state x="569" y="342" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1577972270990" />
     <state x="639" y="144" width="707" height="807" key="find.popup" timestamp="1577623858224">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
