@@ -1,6 +1,8 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive) <img src="https://engineering.nyu.edu/sites/default/files/2019-01/tandon_long_color.png" alt="NYU Logo" width="130" height="whatever">
+
+The following project is a part of Udacity’s C++ NanoDegree program. The aim of project is to successfully find the shortest path between two points on the map.
 
 <img src="map.png" width="600" height="450" />
 

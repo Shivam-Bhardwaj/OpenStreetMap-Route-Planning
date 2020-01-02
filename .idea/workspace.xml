@@ -2,13 +2,13 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="OSM_A_star_search" targetName="pugixml" />
-      <config projectName="OSM_A_star_search" targetName="test" />
-      <config projectName="OSM_A_star_search" targetName="gmock_main" />
-      <config projectName="OSM_A_star_search" targetName="OSM_A_star_search" />
-      <config projectName="OSM_A_star_search" targetName="gtest" />
       <config projectName="OSM_A_star_search" targetName="gtest_main" />
+      <config projectName="OSM_A_star_search" targetName="test" />
+      <config projectName="OSM_A_star_search" targetName="pugixml" />
+      <config projectName="OSM_A_star_search" targetName="gtest" />
+      <config projectName="OSM_A_star_search" targetName="OSM_A_star_search" />
       <config projectName="OSM_A_star_search" targetName="gmock" />
+      <config projectName="OSM_A_star_search" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,9 +17,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="">
+    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="Final update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/route_planner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +49,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.24826904" />
   </component>
-  <component name="RunManager" selected="CMake Application.OSM_A_star_search">
+  <component name="RunManager" selected="CMake Application.test">
     <configuration name="OSM_A_star_search" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OSM_A_star_search" TARGET_NAME="OSM_A_star_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OSM_A_star_search" RUN_TARGET_NAME="OSM_A_star_search">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -131,6 +131,11 @@
       <workItem from="1577622471479" duration="45000" />
       <workItem from="1577622732390" duration="209000" />
       <workItem from="1577622951020" duration="5586000" />
+      <workItem from="1577661627737" duration="1107000" />
+      <workItem from="1577774445387" duration="2092000" />
+      <workItem from="1577957583098" duration="629000" />
+      <workItem from="1577960906509" duration="174000" />
+      <workItem from="1577961781531" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -167,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577627749315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final update">
+      <created>1577661654249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577661654249</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final update">
+      <created>1577661668876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577661668876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,53 +199,62 @@
     <MESSAGE value="changes in main()" />
     <MESSAGE value="finished project" />
     <MESSAGE value="reverse the path found" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse the path found" />
+    <MESSAGE value="Final update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577592912181">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
-    <state x="330" y="122" key="CommitChangelistDialog2" timestamp="1577661654117">
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577971432403">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
-    <state x="330" y="122" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577661654117" />
-    <state width="1315" height="416" key="GridCell.Tab.0.bottom" timestamp="1577628900316">
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577971432403" />
+    <state x="1516" y="551" key="FileChooserDialogImpl" timestamp="1577782184413">
+      <screen x="146" y="54" width="3694" height="2106" />
+    </state>
+    <state x="1516" y="551" key="FileChooserDialogImpl/146.54.3694.2106@146.54.3694.2106" timestamp="1577782184413" />
+    <state width="1290" height="430" key="GridCell.Tab.0.bottom" timestamp="1577961080328">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="2587" height="818" key="GridCell.Tab.0.bottom/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190303" />
     <state width="3567" height="564" key="GridCell.Tab.0.bottom/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.bottom/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1315" height="416" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577628900316" />
-    <state width="1315" height="416" key="GridCell.Tab.0.center" timestamp="1577628900316">
+    <state width="1290" height="430" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080328" />
+    <state width="1290" height="430" key="GridCell.Tab.0.center" timestamp="1577961080326">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="2587" height="818" key="GridCell.Tab.0.center/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190301" />
     <state width="3567" height="564" key="GridCell.Tab.0.center/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.center/43.16.1237.704@43.16.1237.704" timestamp="1577621685926" />
-    <state width="1315" height="416" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577628900316" />
-    <state width="1315" height="416" key="GridCell.Tab.0.left" timestamp="1577628900315">
+    <state width="1290" height="430" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080326" />
+    <state width="1290" height="430" key="GridCell.Tab.0.left" timestamp="1577961080324">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="2587" height="818" key="GridCell.Tab.0.left/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190300" />
     <state width="3567" height="564" key="GridCell.Tab.0.left/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960476" />
     <state width="1191" height="179" key="GridCell.Tab.0.left/43.16.1237.704@43.16.1237.704" timestamp="1577621685925" />
-    <state width="1315" height="416" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577628900315" />
-    <state width="1315" height="416" key="GridCell.Tab.0.right" timestamp="1577628900316">
+    <state width="1290" height="430" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080324" />
+    <state width="1290" height="430" key="GridCell.Tab.0.right" timestamp="1577961080327">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="2587" height="818" key="GridCell.Tab.0.right/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190302" />
     <state width="3567" height="564" key="GridCell.Tab.0.right/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.right/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1315" height="416" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577628900316" />
-    <state x="270" y="34" key="SettingsEditor" timestamp="1577623686577">
+    <state width="1290" height="430" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080327" />
+    <state x="270" y="34" key="SettingsEditor" timestamp="1577971340608">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="748" y="186" key="SettingsEditor/163.60.3677.2100@163.60.3677.2100" timestamp="1577592932112" />
     <state x="180" y="16" key="SettingsEditor/43.16.1237.704@43.16.1237.704" timestamp="1577623022450" />
-    <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577623686577" />
-    <state x="488" y="204" key="Vcs.Push.Dialog.v2" timestamp="1577661658754">
+    <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577971340608" />
+    <state x="488" y="204" key="Vcs.Push.Dialog.v2" timestamp="1577661672442">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1001" y="417" key="Vcs.Push.Dialog.v2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592808672" />
-    <state x="488" y="204" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577661658754" />
+    <state x="488" y="204" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577661672442" />
     <state x="569" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577661627631">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

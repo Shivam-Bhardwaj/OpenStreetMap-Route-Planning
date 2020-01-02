@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pugixml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\;CMake Files\cmake\;CMake Files\thirdparty\;CMake Files\thirdparty\pugixml\;CMake Files\thirdparty\pugixml\scripts\;CMake Files\thirdparty\googletest\;CMake Files\thirdparty\googletest\googlemock\;CMake Files\thirdparty\googletest\googlemock\cmake\;CMake Files\thirdparty\googletest\googletest\;CMake Files\thirdparty\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml">
+				<Option output="/home/shivam/workplace/OpenStreetMap-Route-Planning/lib/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 pugixml"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml/fast">
+				<Option output="/home/shivam/workplace/OpenStreetMap-Route-Planning/lib/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 pugixml/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/src/pugiconfig.hpp">
+			<Option target="pugixml"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/src/pugixml.cpp">
+			<Option target="pugixml"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/src/pugixml.hpp">
+			<Option target="pugixml"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/../../../../usr/local/lib/cmake/io2d/io2dConfig-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/../../../../usr/local/lib/cmake/io2d/io2dConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake/FindCairo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/cmake/FindGraphicsMagick.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/pugixml/scripts/pugixml.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\pugixml\scripts\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/OpenStreetMap-Route-Planning/thirdparty/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

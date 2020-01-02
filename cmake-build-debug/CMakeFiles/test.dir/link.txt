@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o CMakeFiles/test.dir/src/route_planner.cpp.o CMakeFiles/test.dir/src/model.cpp.o CMakeFiles/test.dir/src/route_model.cpp.o  -o test lib/libgtest_maind.a ../lib/libpugixml.a lib/libgtestd.a -lpthread 
