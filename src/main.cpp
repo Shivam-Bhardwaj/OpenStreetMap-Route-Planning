@@ -13,6 +13,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
+// Function to read the OSM file and store the data in the desired vector
 static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
 {   
     std::ifstream is{path, std::ios::binary | std::ios::ate};
@@ -30,6 +32,7 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
     return std::move(contents);
 }
 
+// Function to get the query points from the user
 static float FromUserInput(const std::string name) {
     float value = -1;
     std::string input;
@@ -46,6 +49,7 @@ static float FromUserInput(const std::string name) {
     return value;
 }
 
+// The main function
 int main(int argc, const char **argv)
 {    
     std::string osm_data_file = "";
@@ -71,19 +75,7 @@ int main(int argc, const char **argv)
             osm_data = std::move(*data);
     }
     
-    // TO DO 1: Declare floats `start_x`, `start_y`, `end_x`, and `end_y` and get
-    // user input for these values using std::cin. Pass the user input to the
-    // RoutePlanner object below in place of 10, 10, 90, 90.
-//    float start_x, start_y, end_x, end_y;
-//    cout<< "Enter the start x-y and end x-y coordinates"<<endl;
-//    cout << "\n start_x: ";
-//    cin >> start_x;
-//    cout << "\n start_y: ";
-//    cin >> start_y;
-//    cout << "\n end_x: ";
-//    cin >> end_x;
-//    cout << "\n end_y: ";
-//    cin >> end_y;
+    // Get the data from the user
     float start_x = FromUserInput("start x");
     float start_y = FromUserInput("start y");
     float end_x = FromUserInput("end x");
