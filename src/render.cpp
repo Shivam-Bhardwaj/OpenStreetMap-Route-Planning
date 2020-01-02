@@ -1,3 +1,7 @@
+/*
+ * The following code is required for proper use of IO2D library to render the Map
+ */
+
 #include "render.h"
 #include <iostream>
 

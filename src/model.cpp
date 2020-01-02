@@ -1,6 +1,10 @@
+/*
+ * The following code is required to successfully parse the OSM data in C++
+ * The code is a modified version of the sample code provided by OpenSourceMap community
+ */
+
 #include "model.h"
 #include "pugixml.hpp"
-#include <iostream>
 #include <string_view>
 #include <cmath>
 #include <algorithm>

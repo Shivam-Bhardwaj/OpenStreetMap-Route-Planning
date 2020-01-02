@@ -17,8 +17,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="Final update">
+    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +140,7 @@
       <workItem from="1577960906509" duration="174000" />
       <workItem from="1577961781531" duration="1450000" />
       <workItem from="1577972269546" duration="14000" />
-      <workItem from="1577972300748" duration="19000" />
+      <workItem from="1577972300748" duration="529000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -188,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577661668876</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Git restructured">
+      <created>1577972349544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577972349544</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comments in main()">
+      <created>1577972529563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577972529563</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,18 +223,20 @@
     <MESSAGE value="finished project" />
     <MESSAGE value="reverse the path found" />
     <MESSAGE value="Final update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final update" />
+    <MESSAGE value="Git restructured" />
+    <MESSAGE value="Comments in main()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments in main()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577592912181">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577972349472">
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577972529518">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972349472" />
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972529518" />
     <state x="1516" y="551" key="FileChooserDialogImpl" timestamp="1577782184413">
       <screen x="146" y="54" width="3694" height="2106" />
     </state>

@@ -95,6 +95,7 @@ int main(int argc, const char **argv)
     // Render results of search.
     Render render{model};
 
+    // Code for displaying the results in IO2D library
     auto display = io2d::output_surface{400, 400, io2d::format::argb32, io2d::scaling::none, io2d::refresh_style::fixed, 30};
     display.size_change_callback([](io2d::output_surface& surface){
         surface.dimensions(surface.display_dimensions());
