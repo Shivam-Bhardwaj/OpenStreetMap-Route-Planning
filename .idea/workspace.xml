@@ -135,7 +135,7 @@
       <workItem from="1577774445387" duration="2092000" />
       <workItem from="1577957583098" duration="629000" />
       <workItem from="1577960906509" duration="174000" />
-      <workItem from="1577961781531" duration="1296000" />
+      <workItem from="1577961781531" duration="1450000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -207,11 +207,11 @@
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577971432403">
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577971488867">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577971432403" />
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577971488867" />
     <state x="1516" y="551" key="FileChooserDialogImpl" timestamp="1577782184413">
       <screen x="146" y="54" width="3694" height="2106" />
     </state>
