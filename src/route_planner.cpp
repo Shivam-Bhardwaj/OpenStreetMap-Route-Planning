@@ -1,3 +1,7 @@
+/*
+ * The following code is the actual implementation of the A* algorithm for path planning
+ */
+
 #include "route_planner.h"
 #include <algorithm>
 
