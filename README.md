@@ -6,18 +6,30 @@ The following project is a part of Udacity’s C++ NanoDegree program. The aim o
 
 <img src="map.png" width="600" height="450" />
 
+The Project
+---
+
+The steps of this project are the following:
+
+* Parsing the data from OpenStreetMap file (.OSM xml file)
+* The user inputs two points on the map and initial and final points
+* Route planner is executed
+  * Based on the points input by the user, the closest initial and final nodes are found.
+  * A list of feasible open nodes is updated.
+  * Based on a heuristic value and the distance from the start node, next node is popped.
+  * From the popped node, the open list is again updated.
+* The process is repeated till either the next node is the goal, or the open list is exhausted.
+* The path is returned and plotted used IO2D library.
+
+
+
 ## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+When cloning this project, be sure to use the `--recurse-submodules` flag. 
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/Shivam-Bhardwaj/OpenStreetMap-Route-Planning --recurse-submodules
 ```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-
-## Dependencies for Running Locally
+## Dependencies for Running
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -61,3 +73,9 @@ The testing executable is also placed in the `build` directory. From within `bui
 ./test
 ```
 
+The code was tested on the following specifications
+
+- **CPU:** `Intel(R) Core(TM) i9-8950HK CPU @ 4.8 Ghz`
+- **GPU:** `Nvidia GeForce GTX 1050 Ti Mobile`
+- **OS:** `Ubuntu 16.04.6 LTS (Xenial Xerus)` 
+- **Kernal:** `4.15.0-48-generic`
