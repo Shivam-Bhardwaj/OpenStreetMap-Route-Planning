@@ -4,6 +4,9 @@
 
 The following project is a part of Udacity’s C++ NanoDegree program. The aim of project is to successfully find the shortest path between two points on the map.
 
+- Map data from OSM XML file is parsed and the optimal path is plotted using IO2D Library in C++; 
+- Used GoogleTest Framework for unit testing.
+
 <img src="map.png" width="600" height="450" />
 
 The Project
