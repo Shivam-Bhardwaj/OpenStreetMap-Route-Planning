@@ -47,34 +47,34 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 }
 
 
-// TO DO 5: Complete the NextNode method to sort the open list and return the next node.
-// Tips:
-// - Sort the open_list according to the sum of the h value and g value.
-// - Create a pointer to the node in the list with the lowest sum.
-// - Remove that node from the open_list.
-// - Return the pointer.
+// NextNode function:  to sort the open list and return the next node.
 RouteModel::Node *RoutePlanner::NextNode() {
+    // - Sort the open_list according to the sum of the h value and g value.
     sort(open_list.begin(), open_list.end(),
             // Lambda comparator function
          [](auto const &a, auto const &b) {
              return (a->g_value + a->h_value) > (b->g_value + b->h_value);
          });
 
+    // Create a pointer to the node in the list with the lowest sum.
     auto node = open_list.back();
+
+    // Remove that node from the open_list.
     open_list.pop_back();
+
+    // Return the pointer.
     return node;
 }
 
 
-// TO DO 6: Complete the ConstructFinalPath method to return the final path found from your A* search.
-// Tips:
-// - This method should take the current (final) node as an argument and iteratively follow the 
-//   chain of parents of nodes until the starting node is found.
-// - For each node in the chain, add the distance from the node to its parent to the distance variable.
-// - The returned vector should be in the correct order: the start node should be the first element
-//   of the vector, the end node should be the last element.
-
+/*
+ * ConstructFinalPath function: to return the final path found from your A* search.
+ * This method should take the current (final) node as an argument and iteratively follow the
+ * chain of parents of nodes until the starting node is found.
+ * For each node in the chain, add the distance from the node to its parent to the distance variable.
+ */
 std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node *current_node) {
+
     // Create path_found vector
     distance = 0.0f;
     std::vector<RouteModel::Node> path_found;
@@ -86,35 +86,34 @@ std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node 
         current_node = current_node->parent;
     }
     path_found.push_back(*current_node);
+
+    // The returned vector should be in the correct order: the start node should be the first element
+    // of the vector, the end node should be the last element. Hence have to sort the vector.
     std::reverse(path_found.begin(), path_found.end());
+
     distance *= m_Model.MetricScale(); // Multiply the distance by the scale of the map to get meters.
     return path_found;
 
 }
 
-
-// TO DO 7: Write the A* Search algorithm here.
-// Tips:
-// - Use the AddNeighbors method to add all of the neighbors of the current node to the open_list.
-// - Use the NextNode() method to sort the open_list and return the next node.
-// - When the search has reached the end_node, use the ConstructFinalPath method to return the final path that was found.
-// - Store the final path in the m_Model.path attribute before the method exits. This path will then be displayed on the map tile.
-
+// The A* Search algorithm
 void RoutePlanner::AStarSearch() {
     RouteModel::Node *current_node = nullptr;
-
-    // TO DO: Implement your solution here.
     start_node->visited = true;
     open_list.push_back(start_node);
     while (open_list.size() > 0) {
+        // NextNode() method to sort the open_list and return the next node.
         current_node = NextNode();
         if (current_node->distance(*end_node) == 0) {
+            // Store the final path in the m_Model.path attribute before the method exits.
+            // This path will then be displayed on the map tile.
             m_Model.path = ConstructFinalPath(current_node);
+            // When the search has reached the end_node, use the ConstructFinalPath method
+            // to return the final path that was found.
             return;
         } else {
+            // Use the AddNeighbors method to add all of the neighbors of the current node to the open_list.
             AddNeighbors(current_node);
         }
     }
-
-
 }
