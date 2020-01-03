@@ -19,9 +19,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route_planner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,8 @@
       <workItem from="1577960906509" duration="174000" />
       <workItem from="1577961781531" duration="1450000" />
       <workItem from="1577972269546" duration="14000" />
-      <workItem from="1577972300748" duration="529000" />
+      <workItem from="1577972300748" duration="837000" />
+      <workItem from="1578016875723" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -205,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577972529563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Comments in main()">
+      <created>1577972833074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577972833074</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Comments updated">
+      <created>1577972944743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577972944743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,18 +238,19 @@
     <MESSAGE value="Final update" />
     <MESSAGE value="Git restructured" />
     <MESSAGE value="Comments in main()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments in main()" />
+    <MESSAGE value="Comments updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577592912181">
       <screen x="163" y="60" width="3677" height="2100" />
     </state>
     <state x="1442" y="477" width="1718" height="1295" key="#com.intellij.execution.impl.EditConfigurationsDialog/163.60.3677.2100@163.60.3677.2100" timestamp="1577592912181" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577972833023">
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2" timestamp="1577972944695">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="689" y="254" key="CommitChangelistDialog2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592800909" />
-    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972833023" />
+    <state x="330" y="122" width="1235" height="659" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972944695" />
     <state x="1516" y="551" key="FileChooserDialogImpl" timestamp="1577782184413">
       <screen x="146" y="54" width="3694" height="2106" />
     </state>
@@ -275,11 +289,11 @@
     <state x="748" y="186" key="SettingsEditor/163.60.3677.2100@163.60.3677.2100" timestamp="1577592932112" />
     <state x="180" y="16" key="SettingsEditor/43.16.1237.704@43.16.1237.704" timestamp="1577623022450" />
     <state x="270" y="34" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577972318991" />
-    <state x="488" y="204" key="Vcs.Push.Dialog.v2" timestamp="1577972356070">
+    <state x="488" y="204" key="Vcs.Push.Dialog.v2" timestamp="1577972949119">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1001" y="417" key="Vcs.Push.Dialog.v2/163.60.3677.2100@163.60.3677.2100" timestamp="1577592808672" />
-    <state x="488" y="204" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972356070" />
+    <state x="488" y="204" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577972949119" />
     <state x="569" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577972270990">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
