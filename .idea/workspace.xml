@@ -17,7 +17,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="Comments updated" />
+    <list default="true" id="3f560ebd-0f15-4721-8aa4-7e95224e7c1f" name="Default Changelist" comment="Comments updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/src/model.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/src/model.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/src/route_planner.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/src/route_planner.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OSM_A_star_search" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OSM_A_star_search" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +64,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.24826904" />
   </component>
-  <component name="RunManager" selected="CMake Application.test">
+  <component name="RunManager" selected="CMake Application.OSM_A_star_search">
     <configuration name="OSM_A_star_search" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OSM_A_star_search" TARGET_NAME="OSM_A_star_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OSM_A_star_search" RUN_TARGET_NAME="OSM_A_star_search">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -136,7 +148,10 @@
       <workItem from="1577961781531" duration="1450000" />
       <workItem from="1577972269546" duration="14000" />
       <workItem from="1577972300748" duration="837000" />
-      <workItem from="1578016875723" duration="3037000" />
+      <workItem from="1578016875723" duration="3632000" />
+      <workItem from="1578063413062" duration="11000" />
+      <workItem from="1578383720707" duration="696000" />
+      <workItem from="1578663232326" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577590394617</created>
@@ -273,34 +288,34 @@
       <screen x="146" y="54" width="3694" height="2106" />
     </state>
     <state x="1516" y="551" key="FileChooserDialogImpl/146.54.3694.2106@146.54.3694.2106" timestamp="1577782184413" />
-    <state width="1290" height="430" key="GridCell.Tab.0.bottom" timestamp="1577961080328">
+    <state width="1254" height="430" key="GridCell.Tab.0.bottom" timestamp="1578407168133">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="2587" height="818" key="GridCell.Tab.0.bottom/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190303" />
     <state width="3567" height="564" key="GridCell.Tab.0.bottom/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.bottom/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1290" height="430" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080328" />
-    <state width="1290" height="430" key="GridCell.Tab.0.center" timestamp="1577961080326">
+    <state width="1254" height="430" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1578407168133" />
+    <state width="1254" height="430" key="GridCell.Tab.0.center" timestamp="1578407168129">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="2587" height="818" key="GridCell.Tab.0.center/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190301" />
     <state width="3567" height="564" key="GridCell.Tab.0.center/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.center/43.16.1237.704@43.16.1237.704" timestamp="1577621685926" />
-    <state width="1290" height="430" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080326" />
-    <state width="1290" height="430" key="GridCell.Tab.0.left" timestamp="1577961080324">
+    <state width="1254" height="430" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1578407168129" />
+    <state width="1254" height="430" key="GridCell.Tab.0.left" timestamp="1578407168129">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="2587" height="818" key="GridCell.Tab.0.left/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190300" />
     <state width="3567" height="564" key="GridCell.Tab.0.left/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960476" />
     <state width="1191" height="179" key="GridCell.Tab.0.left/43.16.1237.704@43.16.1237.704" timestamp="1577621685925" />
-    <state width="1290" height="430" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080324" />
-    <state width="1290" height="430" key="GridCell.Tab.0.right" timestamp="1577961080327">
+    <state width="1254" height="430" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1578407168129" />
+    <state width="1254" height="430" key="GridCell.Tab.0.right" timestamp="1578407168130">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="2587" height="818" key="GridCell.Tab.0.right/146.54.3694.2106@146.54.3694.2106" timestamp="1577782190302" />
     <state width="3567" height="564" key="GridCell.Tab.0.right/163.60.3677.2100@163.60.3677.2100" timestamp="1577592960477" />
     <state width="1191" height="179" key="GridCell.Tab.0.right/43.16.1237.704@43.16.1237.704" timestamp="1577621685927" />
-    <state width="1290" height="430" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577961080327" />
+    <state width="1254" height="430" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1578407168130" />
     <state x="270" y="34" key="SettingsEditor" timestamp="1577972318991">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

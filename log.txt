@@ -1,0 +1,141 @@
+==12460== Memcheck, a memory error detector
+==12460== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==12460== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==12460== Command: ./cmake-build-debug/OSM_A_star_search
+==12460== Parent PID: 12403
+==12460== 
+==12460== 
+==12460== Process terminating with default action of signal 6 (SIGABRT)
+==12460==    at 0x5FDE428: raise (raise.c:54)
+==12460==    by 0x5FE0029: abort (abort.c:89)
+==12460==    by 0x573E8AD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x574A4B5: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x574A520: std::terminate() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x574A774: __cxa_throw (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x4157C4: Model::LoadData(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:61)
+==12460==    by 0x4155BF: Model::Model(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:46)
+==12460==    by 0x446D77: RouteModel::RouteModel(std::vector<std::byte, std::allocator<std::byte> > const&) (route_model.cpp:4)
+==12460==    by 0x407512: main (main.cpp:87)
+==12460== 
+==12460== HEAP SUMMARY:
+==12460==     in use at exit: 85,286 bytes in 10 blocks
+==12460==   total heap usage: 14 allocs, 4 frees, 87,918 bytes allocated
+==12460== 
+==12460== 1 bytes in 1 blocks are still reachable in loss record 1 of 10
+==12460==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x44E7F1: pugi::impl::(anonymous namespace)::default_allocate(unsigned long) (pugixml.cpp:186)
+==12460==    by 0x4505B1: pugi::impl::(anonymous namespace)::get_mutable_buffer(char*&, unsigned long&, void const*, unsigned long, bool) (pugixml.cpp:2051)
+==12460==    by 0x450875: pugi::impl::(anonymous namespace)::convert_buffer(char*&, unsigned long&, pugi::xml_encoding, void const*, unsigned long, bool) (pugixml.cpp:2249)
+==12460==    by 0x455867: pugi::impl::(anonymous namespace)::load_buffer_impl(pugi::impl::(anonymous namespace)::xml_document_struct*, pugi::xml_node_struct*, void*, unsigned long, unsigned int, pugi::xml_encoding, bool, bool, char**) (pugixml.cpp:4692)
+==12460==    by 0x45C5D9: pugi::xml_document::load_buffer(void const*, unsigned long, unsigned int, pugi::xml_encoding) (pugixml.cpp:7127)
+==12460==    by 0x415782: Model::LoadData(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:60)
+==12460==    by 0x4155BF: Model::Model(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:46)
+==12460==    by 0x446D77: RouteModel::RouteModel(std::vector<std::byte, std::allocator<std::byte> > const&) (route_model.cpp:4)
+==12460==    by 0x407512: main (main.cpp:87)
+==12460== 
+==12460== 53 bytes in 1 blocks are still reachable in loss record 2 of 10
+==12460==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x578CD90: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x578CEB6: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x578ED80: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x57701E6: std::logic_error::logic_error(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x4157B2: Model::LoadData(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:61)
+==12460==    by 0x4155BF: Model::Model(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:46)
+==12460==    by 0x446D77: RouteModel::RouteModel(std::vector<std::byte, std::allocator<std::byte> > const&) (route_model.cpp:4)
+==12460==    by 0x407512: main (main.cpp:87)
+==12460== 
+==12460== 144 bytes in 1 blocks are possibly lost in loss record 3 of 10
+==12460==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x57493AF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x4157A2: Model::LoadData(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:61)
+==12460==    by 0x4155BF: Model::Model(std::vector<std::byte, std::allocator<std::byte> > const&) (model.cpp:46)
+==12460==    by 0x446D77: RouteModel::RouteModel(std::vector<std::byte, std::allocator<std::byte> > const&) (route_model.cpp:4)
+==12460==    by 0x407512: main (main.cpp:87)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 4 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C206E: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3BF5: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 5 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C0B3F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3C77: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 6 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63DEBAF: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63A8127: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3C10: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 7 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x640144F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63A8137: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3C10: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 8 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x6401B1F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3C10: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 2,064 bytes in 1 blocks are still reachable in loss record 9 of 10
+==12460==    at 0x4C2FB55: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x63C355F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C64CF: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x63C3C30: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x637CC08: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== 72,704 bytes in 1 blocks are still reachable in loss record 10 of 10
+==12460==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12460==    by 0x5746F85: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==12460==    by 0x40106C9: call_init.part.0 (dl-init.c:72)
+==12460==    by 0x40107DA: call_init (dl-init.c:30)
+==12460==    by 0x40107DA: _dl_init (dl-init.c:120)
+==12460==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12460== 
+==12460== LEAK SUMMARY:
+==12460==    definitely lost: 0 bytes in 0 blocks
+==12460==    indirectly lost: 0 bytes in 0 blocks
+==12460==      possibly lost: 144 bytes in 1 blocks
+==12460==    still reachable: 85,142 bytes in 9 blocks
+==12460==                       of which reachable via heuristic:
+==12460==                         stdstring          : 53 bytes in 1 blocks
+==12460==         suppressed: 0 bytes in 0 blocks
+==12460== 
+==12460== For counts of detected and suppressed errors, rerun with: -v
+==12460== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
